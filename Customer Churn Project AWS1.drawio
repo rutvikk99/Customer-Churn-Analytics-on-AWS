@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.5">
+  <diagram name="Page-1" id="8ORMo8Qj18I7dEQ9yNF8">
+    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="600" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="280" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="210" width="130" height="188.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-3" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="55" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-4" target="GAETnPsG9zD3ZWaMMMaf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-4" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-5" target="GAETnPsG9zD3ZWaMMMaf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_crawlers;" vertex="1" parent="1">
+          <mxGeometry x="320" y="251.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-6" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-7" target="GAETnPsG9zD3ZWaMMMaf-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-36" target="GAETnPsG9zD3ZWaMMMaf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_data_catalog;" vertex="1" parent="1">
+          <mxGeometry x="480" y="251" width="72" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-8" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.athena;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-10" target="GAETnPsG9zD3ZWaMMMaf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GAETnPsG9zD3ZWaMMMaf-9" target="GAETnPsG9zD3ZWaMMMaf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-9" value="Amazon Redshift" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.redshift;" vertex="1" parent="1">
+          <mxGeometry x="648" y="370" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" vertex="1" parent="1">
+          <mxGeometry x="789" y="391" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-12" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="794.5" y="90" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-13" value="Customer Churn Analytics on AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-28" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=https://apache.org/logos/res/airflow/airflow-1.png" vertex="1" parent="1">
+          <mxGeometry x="164.82999999999998" y="465" width="155.17" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="120" as="sourcePoint" />
+            <mxPoint x="790" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-31" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="789" y="161.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-32" value="PowerBI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-34" value="AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="145" y="75" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-35" value="Athena" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-36" value="Glue Data Catalog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="456" y="330.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-38" value="&amp;nbsp;Glue Crawler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="309" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-39" value="Glue Workflow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="308" y="186" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-40" value="Dashboards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GAETnPsG9zD3ZWaMMMaf-41" value="Database" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

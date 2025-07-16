@@ -1,14 +1,14 @@
 
 # **Customer Churn Analytics on AWS**
 
-## **📌 Project Overview**
+## **Project Overview**
 
-This project implements an **end-to-end data engineering pipeline on AWS** to analyze **customer churn patterns**. It automates **data ingestion, ETL, schema management, and orchestration**, and visualizes insights using **Power BI dashboards** for business decision-making.
+This project implements an end-to-end data engineering pipeline on AWS to analyze Telecom customer churn patterns. It automates data ingestion, ETL, schema management, and orchestration, and visualizes insights using Power BI dashboards for business decision-making.
 
 
-## **✅ Architecture**
+## **Architecture**
 
-![AWS Architecture](./Customer-Churn-Project-Architecture.png)
+![AWS Architecture](./Customer%20Churn%20Project%20AWS1.drawio.png)
 
 **Tools & Services Used:**
 
@@ -22,7 +22,7 @@ This project implements an **end-to-end data engineering pipeline on AWS** to an
 
 ---
 
-## **📂 Project Structure**
+## **Project Structure**
 
 ```
 customer-churn-analytics-aws/
@@ -38,8 +38,7 @@ customer-churn-analytics-aws/
 │   ├── processed/                  # Cleaned and transformed data
 │
 ├── dashboards/
-│   ├── churn_dashboard.pbix        # Power BI dashboard file
-│   ├── churn_dashboard.png         # Dashboard preview image
+│   ├── Churn BI dashboard.png         # Dashboard preview image
 │
 ├── sql_queries/
 │   ├── churn_redshift_queries.sql  # Redshift queries for churn analytics
@@ -50,7 +49,7 @@ customer-churn-analytics-aws/
 
 ---
 
-## **⚙️ Prerequisites**
+## **Prerequisites**
 
 * **AWS Account** with permissions for S3, Glue, and Redshift
 * **Apache Airflow** installed locally or on EC2
@@ -63,7 +62,7 @@ pip install -r requirements.txt
 
 ---
 
-## ** Pipeline Workflow**
+## **Pipeline Workflow**
 
 ### **Step 1: Data Ingestion**
 
@@ -109,17 +108,17 @@ glue_job_trigger = PythonOperator(
 
 ---
 
-## **📊 Dashboard Preview**
+## **Dashboard Preview**
 
-![Power BI Dashboard](./churn_dashboard.png)
+![Power BI Dashboard](./Churn%20BI%20dashboard.png)
 
-Key Insights with Metrics**
+**Key Insights with Metrics**
 
 | **#** | **Business Question**                 | **Insight (with Numbers)**                                            | **Action**                                     |
 | ----- | ------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------- |
 | 1     | Which segment churns most?            | **Fiber Optic users: 43.96%** churn; Singles churn more.              | Offer retention plans & loyalty perks.         |
 | 2     | How does payment method affect churn? | **Electronic Check: 33.58%**, highest churn vs. Credit Card (22.89%). | Promote auto-pay & discounts.                  |
-| 3     | What are top churn reasons?           | **Attitude of support staff** is top reason; 5K+ cases logged.        | Improve support & pricing strategy.            |
+| 3     | What are top churn reasons?           | **Attitude of support staff** is top .                                | Improve support & pricing strategy.            |
 | 4     | Which internet type churns most?      | **Fiber Optic: 43.96%**, DSL: 34.37%, No Internet: 21.67%.            | Ensure reliability & offer service guarantees. |
 | 5     | Does age affect churn?                | Majority churn from **Non-senior citizens (6K+)**.                    | Launch youth-focused loyalty programs.         |
 

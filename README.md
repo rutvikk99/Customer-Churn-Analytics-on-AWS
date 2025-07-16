@@ -10,9 +10,7 @@ This project implements an **end-to-end data engineering pipeline on AWS** to an
 
 ---
 
-## **✅ Architecture**
 
-![AWS Architecture](./Customer-Churn-Project-Architecture.png)
 
 **Tools & Services Used:**
 

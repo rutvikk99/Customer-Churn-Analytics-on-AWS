@@ -34,7 +34,7 @@ customer-churn-analytics-aws/
 │   ├── s3_to_redshift_etl.py       # Glue ETL script (custom transformations)
 │
 ├── data/
-│   ├── raw/                        # Raw churn dataset (CSV)
+│   ├── raw CSV Files/                        # Raw churn dataset (CSV)
 │   ├── processed/                  # Cleaned and transformed data
 │
 ├── dashboards/

@@ -20,34 +20,6 @@ This project implements an end-to-end data engineering pipeline on AWS to analyz
 * **Apache Airflow** – Orchestration of Glue job execution and monitoring
 * **Power BI** – Visualization of churn metrics and KPIs
 
----
-
-## **Project Structure**
-
-```
-customer-churn-analytics-aws/
-│
-├── airflow_dags/
-│   ├── customer_churn_dag.py       # Airflow DAG to automate Glue & Redshift pipeline
-│
-├── glue_scripts/
-│   ├── s3_to_redshift_etl.py       # Glue ETL script (custom transformations)
-│
-├── data/
-│   ├── raw CSV Files/                        # Raw churn dataset (CSV)
-│   ├── processed/                  # Cleaned and transformed data
-│
-├── dashboards/
-│   ├── Churn BI dashboard.png         # Dashboard preview image
-│
-├── sql_queries/
-│   ├── churn_redshift_queries.sql  # Redshift queries for churn analytics
-│
-├── requirements.txt                # Python dependencies for Airflow
-└── README.md
-```
-
----
 
 ## **Prerequisites**
 
